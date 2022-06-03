@@ -1,6 +1,5 @@
-                                         Modelo Rails
+                                                    Modelo Rails
                                                             
-  Um arquivo com todas as funcionalidades básicas para se iniciar qualquer projeto com PostgreSQL usando Ruby on Rails
 
   Como utilizar o Modelo Rails?
   
