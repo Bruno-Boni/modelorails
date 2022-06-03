@@ -20,3 +20,4 @@
     9)Você precisa modificar o arquivo database.yml com a sua senha e o seu usuário do PostgreSQL para que a sua aplicação conecte corretamente com o banco de dados. Neste arquivo database.yml em config/database.yml basta substituir os nomes seuusuarioposgresql e suasenhapostgresql pelos valores corretos.
     10)Para adicionar arquivos SASS na sua aplicação, coloque todos os arquivos SASS na pasta app/assets/stylesheets/SASS e no arquivo estilos.scss importe os seus arquivos usando @import.
     11)Este arquivo funciona perfeitamente com Heroku.
+    12)No VSCode, coloque o local para os arquivos .css e .map gerados pelo seu compilador de SASS serem salvos na pasta Sass/compilacoes.
