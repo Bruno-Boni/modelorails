@@ -1,29 +1,16 @@
-@import url(Sass/Bootstrap/bootstrap-grid.css);
-@import url(Sass/Bootstrap/bootstrap-grid.rtl.css);
-@import url(Sass/Bootstrap/bootstrap-reboot.css);
-@import url(Sass/Bootstrap/bootstrap-reboot.rtl.css);
-@import url(Sass/Bootstrap/bootstrap-utilities.css);
-@import url(Sass/Bootstrap/bootstrap-utilities.rtl.css);
-@import url(Sass/Bootstrap/bootstrap.css);
-@import url(Sass/Bootstrap/bootstrap.rtl.css);
+/* line 1, ../estilos.scss */
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+/* line 7, ../estilos.scss */
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: gray;
+  background-color: gray !important;
 }

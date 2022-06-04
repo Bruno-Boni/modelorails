@@ -5,7 +5,7 @@
   
     1)Os arquivos Javascript de toda a aplicação estão na pasta app/javascript separados por pastas.
     2)Os arquivos CSS e SASS estão na pasta app/assets/stylesheets separados por pastas.
-    3)O modelorails é munido de Bootstrap e utiliza o importmap para separar os arquivos Javascript em pastas diferentes.
+    3)O modelorails é munido de Bootstrap, Compass e utiliza o importmap para separar os arquivos Javascript em pastas diferentes.
     4)Na pasta app/views/layouts estão os arquivos _footer.html.erb e _header.html.erb que são respectivamente o footer e o header da página inicial da aplicação, também conhecida como home.
     5)o arquivo HTML com o código que fica entre o header e o footer da página inicial está em app/views/application/index.html.erb.
     6)O footer e o header serão os mesmos para todas as páginas do site.
@@ -20,4 +20,6 @@
     9)Você precisa modificar o arquivo database.yml com a sua senha e o seu usuário do PostgreSQL para que a sua aplicação conecte corretamente com o banco de dados. Neste arquivo database.yml em config/database.yml basta substituir os nomes seuusuarioposgresql e suasenhapostgresql pelos valores corretos.
     10)Para adicionar arquivos SASS na sua aplicação, coloque todos os arquivos SASS na pasta app/assets/stylesheets/SASS e no arquivo estilos.scss importe os seus arquivos usando @import.
     11)Este arquivo funciona perfeitamente com Heroku.
-    12)No VSCode, coloque o local para os arquivos .css e .map gerados pelo seu compilador de SASS serem salvos na pasta Sass/compilacoes.
+    12)Para ativar o Compass, digite compass watch no root do arquivo.
+    13)Os arquivos .css compilados do SASS estão em SASS/compilacoes.
+    14)Se por algum acaso algum seletor do CSS não funcionar corretamente, é por causa da interferência do Bootstrap, basta escrever !important na frente da propriedade antes do ;.
