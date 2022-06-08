@@ -6,13 +6,13 @@
 	
 ---
 	
-## O que é o Modelo Rails?
+# O que é o Modelo Rails?
 	
 Eu já tive muitos problemas na hora de tentar criar um ambiente para desenvolver minhas aplicações Rails, então eu decidi criar este arquivo que servirá como modelo para projetos futuros já que ele possui todas as funcionalidades básicas e essenciais que eu precisarei futuramente.
 
 ---
 	
-# Configurando o Javascript
+## Configurando o Javascript
    1. Os arquivos Javascript de toda a aplicação estão na pasta app/javascript separados por pastas. </br> </br>
    2. Para criar uma pasta onde terão todos os arquivos javascript usados em uma página específica, faça: 
    * Crie uma pasta em app/javascript e coloque todos os arquivos .js com as suas pastas lá. </br>
@@ -39,7 +39,7 @@ Por exemplo, você criou uma pasta chamada home, então, neste arquivo manifest.
 
 ## Configurando o banco de dados
 
-1. Esta aplicação utiliza o PostgreSQL
+1. Esta aplicação utiliza o PostgreSQL.
 2. Você precisa modificar o arquivo database.yml com a sua senha e o seu usuário do PostgreSQL para que a sua aplicação conecte corretamente com o banco de dados. <br/> 
 3. No arquivo database.yml em config/database.yml basta substituir os nomes seuusuarioposgresql e suasenhapostgresql pelos valores corretos.
 
@@ -55,17 +55,17 @@ Por exemplo, você criou uma pasta chamada home, então, neste arquivo manifest.
 
 ## Compass 
 
-1. Para ativar o Compass, digite compass watch no root do arquivo.
+Para ativar o Compass, digite compass watch no root da aplicação.
 
 --- 
 
 ## Heroku
 
-1. Este arquivo funciona perfeita com Heroku
+Esta aplicação funciona perfeita com Heroku
 
 ---
 
 ## Observações
 
-Este arquivo possui Bootstrap e utiliza o importmaps para separar os arquivos javascript em pastas diferentes
+Esta aplicação possui Bootstrap e utiliza o importmaps para separar os arquivos javascript em pastas diferentes
 
