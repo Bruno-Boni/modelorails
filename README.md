@@ -8,7 +8,7 @@
 	
 # O que é o Modelo Rails?
 	
-Eu já tive muitos problemas na hora de tentar criar um ambiente para desenvolver minhas aplicações Rails, então eu decidi criar este arquivo que servirá como modelo para projetos futuros já que ele possui todas as funcionalidades básicas e essenciais que eu precisarei futuramente.
+Eu já tive muitos problemas na hora de tentar criar um ambiente para desenvolver minhas aplicações Ruby on Rails, então eu decidi criar este arquivo que servirá como modelo para projetos futuros já que ele possui todas as funcionalidades básicas e essenciais que eu precisarei futuramente.
 
 ---
 	
